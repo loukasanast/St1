@@ -3,7 +3,6 @@ package io.anastasiou.validation;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.time.Instant;
-import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class DobConstraintValidator implements ConstraintValidator<Dob, Date> {

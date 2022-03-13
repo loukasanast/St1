@@ -1,7 +1,5 @@
 package io.anastasiou.services;
 
-import io.anastasiou.models.Student;
-
 import java.util.List;
 
 public interface EntityService<T> {
