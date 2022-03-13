@@ -50,7 +50,7 @@ public class StudentManagementController {
 
     @PostMapping("/addpost")
     public String addPost(@Valid @ModelAttribute("student") Student student,
-            BindingResult bindingResult) {
+                          BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
             return "add";
         }
@@ -91,7 +91,7 @@ public class StudentManagementController {
 
     @PostMapping("/updatepost")
     public String updatePost(@Valid @ModelAttribute("student") Student student,
-                          BindingResult bindingResult) {
+                             BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
             return "update";
         }
